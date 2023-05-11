@@ -71,7 +71,7 @@ article picture {
 }
 
 article img {
-    max-width: 400px;
+    max-width: 350px;
     outline-color: skyblue;
     outline-width: 4px;
     outline-style: outset;
@@ -80,7 +80,7 @@ article img {
 }
 
 #grande img {
-    max-width: 450px;
+    max-width: 350px;
 }
 
 .item {
