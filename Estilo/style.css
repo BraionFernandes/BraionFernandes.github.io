@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fontes/BebasNeue.ttf')
+    format('truetype');
+}
+
+:root {
+    --cor1: #C4E9FB;
+    --cor2: #B1DAFF;
+    --cor3: #97C1FF;
+    --cor4: #78A0DF;
+    --cor5: #4F7CBF;
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-padrão);
+    background-color: black;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor5), black);
+}
+
+header > img {
+    margin: auto;
+    display: block;
+    max-width: 450px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav img{
+    display: inline;
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+article#topo {
+    background-color: white;
+    color: #0a2d61;
+    margin: auto;
+    padding: 15px;
+    outline-color: skyblue;
+    outline-width: 4px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#topo {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
+#topo > a  {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0a2d61;
+}
+
+#profissoes {
+    background-color: white;
+    outline-color: skyblue;
+    outline-width: 4px;
+    outline-style: outset;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+#profissoes > h1 {
+    font-family: var(--fonte-destaque);
+    color: #0a2d61;
+    text-align: center;
+    padding: 10px;
+}
+
+#profissoes > picture {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#profissoes img {
+    max-width: 100%;
+    margin: 5px;
+    
+}
+
+#engenheiro {
+    outline-style: outset;
+    outline-color: skyblue;
+    outline-width: 4px;
+    border-radius: 5px;
+}
+
+#aventureiro {
+    outline-style: outset;
+    outline-color: skyblue;
+    outline-width: 4px;
+    border-radius: 5px;
+}
+
+#estilista {
+    outline-style: outset;
+    outline-color: skyblue;
+    outline-width: 4px;
+    border-radius: 5px;
+}
+
+#professor {
+    outline-style: outset;
+    outline-color: skyblue;
+    outline-width: 4px;
+    border-radius: 5px;
+}
+
+#clas {
+    background-color: white;
+    outline-color: skyblue;
+    outline-width: 4px;
+    outline-style: outset;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#clas > h1 {
+    font-family: var(--fonte-destaque);
+    color: #0a2d61;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#clas > picture {
+    display: block;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#clas picture > a {
+    text-decoration: none;
+}
+
+#clas a > img {
+    width: 35px;
+    padding: 3px;
+}

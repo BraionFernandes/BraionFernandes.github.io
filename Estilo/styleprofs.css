@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fontes/BebasNeue.ttf')
+    format('truetype');
+}
+
+:root {
+    --cor1: #C4E9FB;
+    --cor2: #B1DAFF;
+    --cor3: #97C1FF;
+    --cor4: #78A0DF;
+    --cor5: #4F7CBF;
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient( to bottom, var(--cor5), black);
+
+}
+
+header img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+main {
+    background-color: black;
+}
+
+article {
+    background-color: white;
+    outline-color: skyblue;
+    outline-width: 4px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+article h1 {
+    font-family: var(--fonte-destaque);
+    color: #0a2d61;
+    text-align: center;
+}
+
+article h2 {
+    font-family: var(--fonte-destaque);
+    color: #0a2d61;
+    padding: 5px;
+}
+
+article p {
+    text-align: justify;
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+article picture {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+article img {
+    max-width: 600px;
+    outline-color: skyblue;
+    outline-width: 4px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#grande img {
+    max-width: 650px;
+}
+
+.item {
+    outline-style: none;
+    width: 50px;
+    margin: 0px;
+}
+
+picture > p {
+    text-align: center;
+    padding: 0px;
+    display: none;
+    font-weight: bold;
+    color: #0a2d61;
+}
+
+picture:hover > p {
+    display: block;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+a > p {
+    text-align: center;
+}
+
+a > p:hover {
+    color: blue;
+}

@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fontes/BebasNeue.ttf')
+    format('truetype');
+}
+
+:root {
+    --cor1: #C4E9FB;
+    --cor2: #B1DAFF;
+    --cor3: #97C1FF;
+    --cor4: #78A0DF;
+    --cor5: #4F7CBF;
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: black;
+}
+
+article h1 {
+    font-family: var(--fonte-destaque);
+    padding: 5px;
+}
+
+article p {
+    font-family: var(--fonte-padrão);
+    padding: 15px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+ul li {
+    padding: 5px;
+}
+
+article picture {
+    display: block;
+    text-align: center;
+}
+
+article img {
+    max-width: 600px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+a > p {
+    text-align: center;
+}
+
+a > p:hover {
+    color: blue;
+}
+
+
+.orebound {
+    outline-color: rgb(39, 39, 39);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headorebound {
+    background-image: linear-gradient(to bottom, black, rgb(95, 95, 95));
+    padding: 10px;
+}
+
+#headorebound h1 {
+    font-family: var(--fonte-destaque);
+    color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.volcanic {
+    outline-color: rgb(168, 0, 0);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headvolcanic {
+    background-image: linear-gradient(to bottom, rgb(49, 0, 0), rgb(168, 0, 0));
+    padding: 10px;
+}
+
+#headvolcanic h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(231, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.naturia {
+    outline-color: rgb(0, 148, 0);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headnaturia {
+    background-image: linear-gradient(to bottom, rgb(0, 37, 0), rgb(0, 148, 0));
+    padding: 10px;
+}
+
+#headnaturia h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(0, 255, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.gardestrike {
+    outline-color: rgb(105, 30, 30);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headgardestrike {
+    background-image: linear-gradient(to bottom, rgb(73, 19, 19), rgb(129, 37, 37));
+    padding: 10px;
+}
+
+#headgardestrike h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(179, 69, 69);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.malefic {
+    outline-color: rgb(145, 0, 145);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headmalefic {
+    background-image: linear-gradient(to bottom, rgb(58, 0, 58), rgb(136, 0, 136));
+    padding: 10px;
+}
+
+#headmalefic h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(138, 0, 218);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.ironhard {
+    outline-color: silver;
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headironhard {
+    background-image: linear-gradient(to bottom, silver, rgb(51, 51, 51));
+    padding: 10px;
+}
+
+#headironhard h1 {
+    font-family: var(--fonte-destaque);
+    color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.wingeon {
+    outline-color: silver;
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headwingeon {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 0, 0));
+    padding: 10px;
+}
+
+#headwingeon h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(230, 228, 228);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.raibolt {
+    outline-color: rgb(204, 204, 0);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headraibolt {
+    background-image: linear-gradient(to bottom, rgb(199, 199, 0), rgb(65, 65, 0));
+    padding: 10px;
+}
+
+#headraibolt h1 {
+    font-family: var(--fonte-destaque);
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.psycraft {
+    outline-color: rgb(211, 63, 88);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headpsycraft {
+    background-image: linear-gradient(to bottom, pink, rgb(160, 81, 94));
+    padding: 10px;
+}
+
+#headpsycraft h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(211, 63, 88);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.seavell {
+    outline-color: rgb(75, 75, 255);
+    outline-width: 5px;
+    outline-style: outset;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#headseavell {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 185), rgb(0, 0, 83));
+    padding: 10px;
+}
+
+#headseavell h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(60, 60, 255);
+    padding: 10px;
+    text-align: center;
+}
