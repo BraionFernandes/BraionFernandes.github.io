@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+}
+
+
+header > img {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+
+}
+
+header  h1 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table > tr {
+    border: 1px 1px solid black;
+}
