@@ -20,17 +20,38 @@ header > img {
 
 header > nav {
     padding: 5px;
-    padding-right: 10px;
+    padding-bottom: 15px;
+    text-align: right;
 }
 
 header nav > a {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    padding-right: 10px;
+    padding: 10px;
     font-size: 3vh;
 }
 
 header nav > a:hover {
     color: #00d084;
+}
+
+#p1 {
+    background-image: url(../imagens/Avkn_001.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#p1 > h1 {
+    color: white;
+    font-size: 2.7em;
+    padding: 10px;
+}
+
+#p1 > picture {
+}
+
+#p1 > picture > img {
+    display: block;
+    margin: auto;
 }
