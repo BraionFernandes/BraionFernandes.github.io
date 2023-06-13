@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Courgette';
+    src: url(Courgette/Courgette-Regular.ttf)
+    format('truetype');
+}
+
+:root {
+    --verde-destaque: #00d084;
+
+    --fonte-destaque: 'Courgette', cursive;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -33,25 +46,41 @@ header nav > a {
 }
 
 header nav > a:hover {
-    color: #00d084;
+    color: var(--verde-destaque);
 }
 
 #p1 {
     background-image: url(../imagens/Avkn_001.jpg);
     background-repeat: no-repeat;
-
+    background-size: cover;
+    background-position: right top;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    padding: 30px;
 }
 
 #p1 > h1 {
+    font-family: var(--fonte-destaque);
     color: white;
     font-size: 2.7em;
-    padding: 10px;
+    padding: 50px;
+
+}
+
+#p1 > p {
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-weight: bold;
+    font-size: 2.7em;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
 }
 
 #p1 > picture {
+    display: block;
+    padding: 20px;
+    text-align: center;
 }
 
 #p1 > picture > img {
-    display: block;
-    margin: auto;
+    max-width: 200px;
 }
