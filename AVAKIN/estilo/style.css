@@ -82,5 +82,5 @@ header nav > a:hover {
 }
 
 #p1 > picture > img {
-    max-width: 200px;
+    max-width: 100%;
 }
