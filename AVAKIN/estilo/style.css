@@ -84,3 +84,94 @@ header nav > a:hover {
 #p1 > picture > img {
     max-width: 100%;
 }
+
+#p2 {
+    background-color: #C9D0D6;
+}
+
+#p2 > div {
+    text-align: center;
+    padding: 30px;
+}
+
+#p2 > div > a {
+    background-color: #622A00;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    min-width: 200px;
+    text-decoration: none;
+}
+
+#p2 div > a > p {
+    color: rgb(206, 206, 206);
+    font-weight: bold;
+    padding: 15px;
+}
+
+#a1 {
+    display: block;
+    text-align: center;
+}
+
+#a1 > img {
+    padding: 50px 0px 0px 0px;
+}
+
+#a2 {
+    display: block;
+    text-align: center;
+}
+
+#a2 > img {
+    padding: 20px;
+    max-width: 50%;
+}
+
+#p3 {
+    background-image: linear-gradient(to right, #33337F, #F037A5);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+#p3 > h1 {
+    color: rgb(230, 230, 13);
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+#p3 > p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#play {
+    display: block;
+    text-align: center;
+}
+
+#play > img {
+    padding: 20px;
+}
+
+#p3 > div {
+    margin-bottom: 30px;
+    margin: 0px 4px 20px -2px;
+    padding: 20px;
+    padding-bottom: 56,7%;
+    position: relative;
+    min-height: 300px;
+}
+
+#p3 > div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
