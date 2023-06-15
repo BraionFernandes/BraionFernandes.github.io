@@ -2,7 +2,7 @@
 <br>
  Demonstração Dos Meus Projetos
 <br>
-<a href="https://instagram.com/braion_f_reis/"><img src="AVAKIN/imagens/social/instagram.png" alt=""></a>
+<a href="https://instagram.com/braion_f_reis/"><img src="AVAKIN/imagens/social/instagram.png" alt="" style="width: 50px;"></a>
 <br>
 <ul>
     <li><a href="https://braionfernandes.github.io/PXG/PokeXGames.html" target="_blank">Projeto PXG</a></li>
