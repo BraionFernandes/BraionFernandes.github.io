@@ -175,3 +175,135 @@ header nav > a:hover {
     height: 90%;
     border-radius: 20px;
 }
+
+#p4 {
+    background-color: #2bfda5;
+    text-align: center;
+}
+
+#p4 > h1 {
+    color: #33337F;
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+#p4 > video {
+    max-width: 450px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+#p5 {
+    background-color: #32337F;
+    text-align: center;
+}
+
+#p5 > h1 {
+    color: rgb(230, 230, 13);
+    font-size: 1.8em;
+    padding: 30px;
+    text-align: center;
+}
+
+#p5 > p {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+#p5 > picture {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    max-width: 500px;
+}
+
+#p5 > picture > img {
+    max-width: 200px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#p6 {
+    background-image: linear-gradient(to bottom, #19E58B, #32347F);
+    padding: 30px;
+    text-align: center;
+}
+
+#p6 > div {
+    background-image: linear-gradient(to right, #19E58B, #32347F);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 40px;
+    max-width: 500px;
+    display: inline-block;
+}
+
+#p6 > div > h1 {
+    color: rgb(230, 230, 13);
+    padding: 10px;
+    font-size: 2em;
+}
+
+#p6 > div > p {
+    color: white;
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+#p6 div > a {
+    color: rgb(230, 230, 13);
+}
+
+#p6 div > a > p:hover {
+    color: #2bfda5;
+}
+
+#p6 div > a > p {
+    color: rgb(230, 230, 13);
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: rgb(48, 48, 48);
+}
+
+footer > img {
+    padding: 50px;
+}
+
+#ajuda {
+    max-width: 600px;
+}
+
+#ajuda > div {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#ajuda > div > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+#redes > a > img{
+ width: 50px;
+ padding: 30px 10px 30px 30px;
+}
+
+footer > aside {
+    padding-bottom: 50px;
+}
+
+footer > aside > p {
+    color: white;
+    padding: 10px 0px 10px 50px;
+}
