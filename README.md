@@ -9,5 +9,6 @@
     <li><a href="https://braionfernandes.github.io/CORDEL/Principal.html" target="_blank">Projeto CORDEL</a></li>
     <li><a href="https://braionfernandes.github.io/Android/android.html" target="_blank">Projeto Android</a></li>
     <li><a href="https://braionfernandes.github.io/AVAKIN/avakin1.html" target="_blank">Projeto AVAKIN</a></li>
-    <li><a href="https://braionfernandes.github.io/REDESSOCIAIS/index.html" targte="_blank">Projeto Social</a></li>
+    <li><a href="https://braionfernandes.github.io/REDESSOCIAIS/index.html" target="_blank">Projeto Social</a></li>
+    <li><a href="https://braionfernandes.github.io/LOGIN/index.html" target="_blank">Projeto Tela de login</a></li>
 </ul>
