@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho-menu {
+        display: block;
+        text-align: center;
+    }
+
+    .cabecalho-menu-item {
+        padding: 5px;
+    }
+
+    .cabecalho-logo {
+        width: 90px;
+    }
+
+    .conteudo {
+        padding: 5px;
+    }
+
+    .conteudo-segundo-imagem-1, .conteudo-segundo-imagem-2 {
+        width: 90%;
+    }
+
+    .conteudo-terceiro-video {
+        width: 80vw;
+        height: 70vh;
+    }
+
+    .conteudo-quarto-video {
+        width: 60%;
+        height: 60%;
+    }
+}
