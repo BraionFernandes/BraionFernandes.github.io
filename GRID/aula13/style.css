@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: [site-start] repeat(5, 1fr) [site-end];
+    grid-auto-rows: 200px;
+    gap: .5rem;
+}
+header{
+    background-color: rgb(92, 197, 92);
+    grid-column: site;
+}
+main{
+    background-color: rgb(197, 92, 92);
+}
+aside{
+    background-color: rgb(92, 92, 197);
+}
+footer{
+    background-color: rgb(169, 197, 92);
+    grid-column: site;
+}
