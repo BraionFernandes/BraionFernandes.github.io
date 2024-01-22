@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) {
+    .imagem{
+        width: 30%;
+    }
+    .formulario {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 65%;
+        height: 92vh;
+        flex-direction: column;
+    }
+    .imagem{
+        display: none;
+    }
+    .formulario{
+        width: 100%;
+        height: 100%;
+    }
+    .continue-button > button{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 815px) {
+    .form-header{
+        justify-content: center;
+        gap: 15px;
+    }
+    .input-group{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 580px) {
+    .form-header{
+        flex-direction: column;
+    }
+    .login-botao{
+        justify-content: end;
+    }
+}
