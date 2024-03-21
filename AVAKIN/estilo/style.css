@@ -30,23 +30,24 @@ body {
     padding: 5px;
 }
 
-.cabecalho-logo {
+.cabecalho-logo-item {
     width: 120px;
 }
 
-.cabecalho-menu {
+.cabecalho-menu-lista {
     display: flex;
     gap: 15px;
+    list-style-type: none;
 }
 
-.cabecalho-menu-item {
+.cabecalho-menu-lista-item a {
     text-decoration: none;
     color: white;
     font-weight: 700;
     font-size: 1.1em;
 }
 
-.cabecalho-menu-item:hover {
+.cabecalho-menu-lista-item a:hover {
     color: var(--verde-destaque);
 }
 
