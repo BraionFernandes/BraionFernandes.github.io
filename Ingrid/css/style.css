@@ -102,3 +102,165 @@
     border-radius: 120px 120px 0px 0px;
     border: 2px solid #D97523;
 }
+.conteudo-sobre{
+    background-color: #D97523;
+    padding: 100px;
+}
+.conteudo-sobre h2{
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+}
+.conteudo-sobre p{
+    font-family: var(--fonte-padrao);
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+.conteudo-autor{
+    background-color: #1d1d1d;
+    padding: 40px;
+}
+.conteudo-autor h2{
+    font-family: var(--fonte-destaque);
+    font-size: 2.4em;
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 2px solid #D97523;
+    padding: 10px;
+}
+.conteudo-autor-descricao{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.conteudo-autor-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+
+}
+.conteudo-autor-imagem-item{
+    width: 70%;
+    height: 90%;
+    border-radius: 120px 120px 0px 0px;
+    border: 2px solid #D97523;
+    padding: 15px;
+}
+.conteudo-autor-descricao h3{
+    color: #D97523;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 10px;
+}
+.conteudo-autor-descricao p{
+    color: #fff;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    padding: 10px;
+}
+.conteudo-card{
+    background-color: #D97523;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo-card aside{
+    width: 500px;
+    background-color: #dadada;
+    padding: 40px;
+}
+.conteudo-card aside i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #D97523;
+}
+.conteudo-card aside h2{
+    padding: 10px 0px;
+    font-family: var(--fonte-padrao);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.conteudo-card aside p{
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.conteudo-cta{
+    background-color: #1d1d1d;
+    padding: 0px 100px;
+}
+.conteudo-cta picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+.conteudo-cta > p{
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 20px;
+}
+.conteudo-cta-card{
+    background-color: #fff;
+    border-radius: 500px 500px 0px 0px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-cta-card-porApenas{
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+.conteudo-cta-card-preco{
+    text-align: center;
+    font-size: 6em;
+    font-weight: 800;
+    color: #4E4E4E;
+}
+.conteudo-cta-card-botao{
+    background-color: #23BED9;
+    padding: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+}
+.conteudo-cta-card-botao a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.conteudo-cta-card-mensagem{
+    color: #4E4E4E;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 900;
+    padding: 5px;
+}
